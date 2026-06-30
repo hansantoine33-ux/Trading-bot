@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 
-TOKEN = "VOTRE_TOKEN"
+TOKEN = 8617499024:AAF5ta__Au1XhDGv7icVwS5-vfPLfrTJtNg
 
 # ---------------- MENU ----------------
 
