@@ -11,7 +11,8 @@ import pandas as pd
 import numpy as np
 import yfinance as yf
 
-TOKEN = 8617499024:AAF5ta__Au1XhDGv7icVwS5-vfPLfrTJtNg
+import os
+TOKEN = os.environ.get("TELEGRAM_TOKEN")
 
 # ---------------- MENU ----------------
 
