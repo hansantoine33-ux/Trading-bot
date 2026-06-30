@@ -226,11 +226,12 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ---------------- MAIN ----------------
 
 def main():
+    if __name__ == "__main__":
     app = Application.builder().token(TOKEN).build()
-app.add_handler(CommandHandler("start", start))
-app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, menu))
-print("✅ Bot Trading PRO (REAL DATA) lancé...")
-app.run_polling()
+    app.add_handler(CommandHandler("start", start))
+    app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, menu))
+    print("✅ Bot Trading PRO (REAL DATA) lancé...")
+    app.run_polling()
 
 
 if __name__ == "__main__":
