@@ -7,9 +7,9 @@ from telegram.ext import (
     filters,
 )
 
-import pandas as pd
-import numpy as np
-import yfinance as yf
+import  pandas as pd
+import  numpy as np
+import  yfinance as yf
 
 import os
 TOKEN = os.environ.get("TELEGRAM_TOKEN")
